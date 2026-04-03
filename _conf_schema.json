@@ -1,0 +1,32 @@
+{
+  "enable_permission_check": {
+    "description": "是否启用权限检查（黑名单和白名单）",
+    "type": "bool",
+    "default": true,
+    "hint": "关闭后将不检查黑名单和白名单"
+  },
+  "whitelist_enabled": {
+    "description": "是否启用白名单模式",
+    "type": "bool",
+    "default": false,
+    "hint": "启用后只有白名单中的用户可以使用机器人"
+  },
+  "enable_identify": {
+    "description": "是否启用QQ号识别",
+    "type": "bool",
+    "default": true,
+    "hint": "启用后会自动将用户昵称改为QQ号"
+  },
+  "debug_mode": {
+    "description": "调试模式",
+    "type": "bool",
+    "default": false,
+    "hint": "启用后会输出更详细的日志信息"
+  },
+  "default_admin": {
+    "description": "默认管理员QQ号",
+    "type": "string",
+    "default": "",
+    "hint": "首次运行时的管理员QQ号，多个用逗号分隔，如：123456,789012"
+  }
+}
